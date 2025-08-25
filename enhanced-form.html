@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Xil'Art Sewing Workshop</title>
+
+  <!-- CSS styling -->
+  <style>
+    body { 
+      font-family: Arial, sans-serif; 
+      line-height: 1.6; 
+      margin: 0; 
+      padding: 0 1em; 
+      background-color: #fafafa;
+      color: #333;
+    }
+    header, nav, main, footer { margin: 1.5em 0; }
+    h1, h2, h3 { color: #2c3e50; }
+    nav ul { 
+      list-style: none; 
+      padding: 0; 
+      display: flex; 
+      gap: 1em; 
+      background: #eee; 
+      padding: 0.5em;
+      border-radius: 5px;
+    }
+    nav a { text-decoration: none; color: #2c3e50; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+    table { 
+      width: 100%; 
+      border-collapse: collapse; 
+      margin: 1em 0; 
+      background: #fff;
+    }
+    table, th, td { border: 1px solid #aaa; }
+    th, td { padding: 0.5em; text-align: left; }
+    caption { font-weight: bold; margin: 0.5em 0; }
+    figure { text-align: center; margin: 1.5em 0; }
+    fieldset { 
+      margin: 1em 0; 
+      padding: 1em; 
+      border-radius: 8px; 
+      border: 1px solid #ccc; 
+      background: #fff; 
+    }
+    legend { font-weight: bold; color: #2c3e50; }
+    label { display: block; margin-top: 0.5em; }
+    input, select, button {
+      margin-top: 0.3em;
+      padding: 0.5em;
+      width: 100%;
+      max-width: 350px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    input[type="checkbox"] {
+      width: auto;
+      margin-right: 0.3em;
+    }
+    button {
+      background: #27ae60;
+      color: #fff;
+      font-weight: bold;
+      border: none;
+      cursor: pointer;
+      width: auto;
+      padding: 0.6em 1.2em;
+      margin-top: 1em;
+      border-radius: 6px;
+    }
+    button:hover {
+      background: #219150;
+    }
+    footer {
+      text-align: center;
+      margin-top: 2em;
+      padding: 1em;
+      background: #f1f1f1;
+      border-top: 1px solid #ddd;
+    }
+    /* Different styles for lists */
+    ul { list-style-type: disc; margin-left: 1.5em; }
+    ol { list-style-type: decimal; margin-left: 1.5em; }
+    dl { margin-left: 1.5em; }
+    dt { font-weight: bold; margin-top: 0.5em; }
+    dd { margin-left: 1em; margin-bottom: 0.5em; }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Welcome to <em>Xil'Art Sewing Workshop</em></h1>
+    <p>Unleash your creativity — sew, stitch, and style with us!</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#schedule">Schedule</a></li>
+      <li><a href="#register">Register</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main -->
+  <main>
+
+    <!-- About -->
+    <section id="about">
+      <h2>About Xil'Art</h2>
+      <p>Xil'Art invites all sewing enthusiasts — from curious beginners to seasoned stitchers — to join our hands-on workshops. Dive into techniques, collaborate with fellow creatives, and craft something beautiful.</p>
+
+      <figure>
+        <img src="https://images.pexels.com/photos/12672239/pexels-photo-12672239.jpeg" 
+             alt="Participants sewing at Xil'Art workshop" width="400">
+        <figcaption>Xil’Art workshops in action: stitch, chat, create.</figcaption>
+      </figure>
+    </section>
+
+    <!-- Schedule -->
+    <section id="schedule">
+      <h2>Upcoming Workshops</h2>
+      <p>Explore our upcoming sessions using different types of lists:</p>
+
+      <!-- Unordered List -->
+      <h3>Unordered List (Topics)</h3>
+      <ul>
+        <li><strong>Beginner’s Sewing Essentials</strong>: Master threading, stitching, and basic projects.</li>
+        <li><strong>Accessory Creation</strong>: Learn to make pouches, bags, and small gifts.</li>
+        <li><strong>Advanced Techniques</strong>: Expand into garment construction and pattern work.</li>
+      </ul>
+
+      <!-- Ordered List -->
+      <h3>Ordered List (Learning Path)</h3>
+      <ol>
+        <li>Start with basic hand stitching.</li>
+        <li>Move to machine sewing techniques.</li>
+        <li>Practice creating accessories.</li>
+        <li>Advance to clothing and pattern design.</li>
+      </ol>
+
+      <!-- Description List -->
+      <h3>Description List (Workshop Details)</h3>
+      <dl>
+        <dt>Beginner Essentials</dt>
+        <dd>A hands-on introduction to sewing tools and stitches.</dd>
+        <dt>Accessory Creation</dt>
+        <dd>Learn to craft stylish pouches, tote bags, and gifts.</dd>
+        <dt>Advanced Techniques</dt>
+        <dd>Master garment construction, patterns, and finishing touches.</dd>
+      </dl>
+
+      <!-- Table -->
+      <table>
+        <caption>Schedule & Pricing</caption>
+        <thead>
+          <tr><th>Workshop</th><th>Date</th><th>Duration</th><th>Fee</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Beginner Essentials</td>
+            <td>September 10, 2025</td>
+            <td>3 hours</td>
+            <td>200,000 BIF</td>
+          </tr>
+          <tr>
+            <td>Accessory Creation</td>
+            <td>September 17, 2025</td>
+            <td>4 hours</td>
+            <td>250,000 BIF</td>
+          </tr>
+          <tr>
+            <td>Advanced Techniques</td>
+            <td>September 24, 2025</td>
+            <td>5 hours</td>
+            <td>300,000 BIF</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Registration Form -->
+    <section id="register">
+      <h2>Register for a Workshop</h2>
+
+      <form action="#" method="post" autocomplete="on">
+        <!-- Personal Info -->
+        <fieldset>
+          <legend>Your Details</legend>
+          <label for="fullname">Full Name:</label>
+          <input type="text" id="fullname" name="fullname" placeholder="Irakoze Elsa" required minlength="3">
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="elsa@example.com" required>
+
+          <label for="phone">Phone Number:</label>
+          <input type="tel" id="phone" name="phone" placeholder="+25761000001" pattern="^\+?[0-9]{8,15}$" required>
+
+          <label for="workshop">Workshop Selected:</label>
+          <select id="workshop" name="workshop" required>
+            <option value="">Choose a workshop</option>
+            <option value="beginner">Beginner Essentials – Sept 10</option>
+            <option value="accessory">Accessory Creation – Sept 17</option>
+            <option value="advanced">Advanced Techniques – Sept 24</option>
+          </select>
+        </fieldset>
+
+        <!-- Preferences -->
+        <fieldset>
+          <legend>Preferences & Consent</legend>
+          <label for="experience">Sewing Experience (years):</label>
+          <input type="number" id="experience" name="experience" min="0" max="50" placeholder="0" required>
+
+          <label><input type="checkbox" id="newsletter" name="newsletter"> Subscribe to our newsletter</label>
+          <label><input type="checkbox" id="terms" name="terms" required> I agree to the Terms & Conditions</label>
+        </fieldset>
+
+        <!-- Referral -->
+        <fieldset>
+          <legend>Confirmation</legend>
+          <!-- Readonly input with preset value -->
+          <label for="referral">How did you hear about us?</label>
+          <input type="text" id="referral" name="referral" value="Instagram Ad" readonly>
+          <button type="submit">Submit Registration</button>
+        </fieldset>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Xil'Art Sewing Workshop</p>
+  </footer>
+</body>
+</html>
